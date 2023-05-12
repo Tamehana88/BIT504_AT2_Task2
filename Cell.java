@@ -13,12 +13,13 @@ public class Cell {
 	public Cell(int row, int col) {
 		
 		// TODO: Initialise the variables row, col 
-		this.row = row;
-		this.col = col;
+
 		
-		// TODO: call the method that sets the cell content to EMPTY
-		clear(); 
+		
+		//TODO: call the method that sets the cell content to EMPTY
+		 
 	}
+	
 
 	/** Paint itself on the graphics canvas, given the Graphics context g */ 
 	public void paint(Graphics g) {
@@ -45,7 +46,7 @@ public class Cell {
 	public void clear() {
 		
 		// TODO: Set the value of content to Empty (Remember this is an enum)
-		content = Player.Empty;
+
 		
 	}
 		
