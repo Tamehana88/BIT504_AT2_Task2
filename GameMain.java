@@ -87,6 +87,7 @@ public class GameMain extends JPanel implements MouseListener{
 	         }
 		 });
 	}
+	
 	/** Custom painting codes on this JPanel */
 	public void paintComponent(Graphics g) {
 		//fill background and set colour to white
